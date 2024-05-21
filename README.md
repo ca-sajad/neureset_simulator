@@ -17,7 +17,7 @@ This is a device simluator designed and implemented by a team of 5 students for 
 
 This project simulates the software for a hypothetical consumer EEG direct neurofeedback device called Neureset, based on the LENS Neurofeedback system. It aims to provide a software-based prototype for treating various conditions such as ADHD, PTSD, TBI, anxiety, and more, as well as optimizing brain function and cognitive performance. 
 
-Neureset is intended as a standalone consumer device for direct neurofeedback, requiring no therapist intervention. It consists of an EEG headset connected to a handheld device, functioning both as a signal processor and user interface. The device calculates dominant frequencies, delivers treatments, and stores session data. For more information, refer to the [project specifications].
+Neureset is intended as a standalone consumer device for direct neurofeedback, requiring no therapist intervention. It consists of an EEG headset connected to a handheld device, functioning both as a signal processor and user interface. The device calculates dominant frequencies, delivers treatments, and stores session data. For more information, refer to the [project specifications](https://github.com/ca-sajad/neureset_simulator/blob/main/DesignDoc/Neureset%20Team%20Project%20Specification.pdf).
 
 The project implements the MVC design pattern ti support two GUIs, mainwindow.ui is the GUI which the user interacts with to use the device’s main functionality (below image, left), whereas testui.ui is the development GUI that the user can use to view the plots of waveforms (below image, right). testui.ui window is only displayed when the user starts a new session. 
 
